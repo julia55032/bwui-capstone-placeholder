@@ -1,0 +1,89 @@
+#main {
+  text-align: left;
+  justify-items: auto;
+}
+
+.jobs {
+  padding: 3.75rem 11.75rem 7.5625rem 11.75rem;
+}
+
+.jobs h1 {
+  margin-bottom: 1rem;
+  font-size: inherit;
+  color: hsla(0, 0%, 13%, 1);
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr) 1fr;
+  align-items: flex-end;
+  margin-bottom: 3.125rem;
+  margin-top: 2rem;
+  grid-gap: 15px;
+  background-color:hsla(0, 0%, 19%, 1);
+  padding: 2rem;
+}
+label {
+  display: block;
+  color:#ffffff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+input:active,
+input:focus,
+textarea:active,
+textarea:focus {
+  border: 2px solid #0692C1;
+  outline: none;
+}
+
+#main form .button {
+  height: fit-content;
+  padding: 1.14rem 0;
+}
+
+.job-list {
+  border-top: solid 1px hsla(0, 0%, 79%, 1);
+}
+
+.job {
+  border-bottom: solid 1px hsla(0, 0%, 79%, 1);
+  padding: 1rem 0;
+}
+
+.job h3 {
+  padding-bottom: .5rem;
+  line-height: 1.2;
+}
+.jobs h3:hover {
+	cursor: pointer;
+}
+.jobs span {
+  color: hsla(0, 0%, 49%, 1);
+}
+
+#see-all-jobs {
+  justify-self: center;
+  margin-top: 3.6875rem;
+}
+@media only screen and (max-width: 680px) {
+	.jobs {
+  padding: 2rem 1rem;
+}
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: flex-end;
+  margin-bottom: 3.125rem;
+  margin-top: 2rem;
+  grid-gap: 15px;
+  padding: 2rem;
+}
+#main h1 {
+font-size: 60px;	
+		
+	}
+}

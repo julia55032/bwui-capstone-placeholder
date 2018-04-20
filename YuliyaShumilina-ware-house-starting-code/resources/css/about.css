@@ -1,0 +1,79 @@
+/* About Page */
+
+.about h1 {
+  width: 100%;
+  height: 14rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  border-radius: 1.5rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+  rgba(0,0,0,0.55) url(../img/hero.png)no-repeat center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: hsla(0, 0%, 100%, 1);
+  padding-top: 110px;
+
+}
+
+.about .information {
+  padding: 1.75rem 20% 6.75rem 20%;
+  color: hsla(0, 0%, 29%, 1);
+}
+
+.about h2 {
+  margin-bottom: 1rem;
+  font-size: inherit;
+}
+
+.about p {
+  padding-bottom: 3rem;
+  font-size: inherit;
+  line-height: 1.8;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  color: hsla(0, 0%, 45%, 1);
+  text-align: left;
+}
+
+.about .join {
+  display: grid;
+  justify-items: center;
+  padding: 1.5rem 0;
+  border: solid 1px #e7e7e7;
+  border-radius: 2px;
+  background-color: hsla(0, 0%, 100%, 1);
+  grid-row-gap: 10px;
+}
+
+@media only screen and (max-width: 786px) {
+   #main h1 {
+    padding-top: 9rem;
+	font-size: 40px;
+  }
+.about .information {
+    padding: 1.75rem 100px 6.75rem 100px;
+}
+	
+}
+
+@media only screen and (max-width: 490px) {
+  .about h1 {
+    font-size: 30px;
+  }
+
+  .about h3 {
+    font-size: 1.25rem;
+  }
+
+  .about p {
+    font-size: 1rem;
+  }
+.about .information {
+    padding: 1.75rem 20px 6.75rem 20px;
+    
+}
+
+
+}
